@@ -1,13 +1,15 @@
 {
   "name": "port_5",
   "private": true,
+  "homepage":"https://amritranjandev.github.io/portfolio1/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "main -d dist"
   },
   "dependencies": {
     "motion": "^12.8.0",
